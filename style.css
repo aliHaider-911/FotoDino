@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.babyBauch-head{
+	background-image: url('https://api.photodino.com/images/static/stars.png');
+	background-color: #7a9fca;
+	overflow-y: hidden;
+}
+
+.babyBauch-footer{
+	background-color: #e8ca62;
+	width: 100%;
+}
+.babyBauch-footer h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	padding:  10px;
+	font-weight: bolder;
+	color: #fefcf6;
+	font-family: Oswald;
+}
+.heir-head{
+	font-family: Pangolin;
+	font-weight: bolder;
+}
+.heir-head h2{
+	line-height:50px ;
+}
+.img-family{
+	position: relative;
+	bottom: -10px;
+}
+#greeting , #city , #date{
+	/*color: #fc2f38;*/
+	color: black;
+}
+.booking_link{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #e5c34e;
+	width: 25rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 5px;
+	border: 3px solid #84a9d4;
+	border-radius: 5px;
+	box-shadow: rgba(133, 169, 299, 1) 0px 1px 10px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.booking_link:active{
+	border-color: transparent ;
+	box-shadow: none;
+}
+.booking_link li{
+	font-size: 3rem;
+	color: #84a9d4;
+}
+.booking_link h2{
+	font-family: Oswald;
+	font-size: 2.5rem;
+}
+.foto-dino h2{
+	font-family: Pangolin;
+}
+.foto-dino a{
+	text-decoration: none;
+	font-size: 32px;
+	font-family: Pangolin;
+	color: #84a9d4;
+}
+.foto-dino p{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: Oswald;
+}
+.foto-dino p span{
+	font-weight: bold;
+}
+
+.img-response{
+	width: 50vw;
+}
+.footer-icons a li{
+	font-size: 4vw;
+	color: black;
+}
+.footer-icons a{
+	text-decoration: none;
+}
+.copyright-text{
+	display: flex;
+	justify-content: center;
+	color: #e3e3e4;
+	font-family: Oswald;
+}
+.copyright-text li{
+	font-size: 35px;
+}
+.footer{
+	height: 500px;
+}
+@media screen and (max-width: 450px){
+	.booking_link{
+		width: 100%;
+	}
+	.booking_link h2{
+		font-size: 9vw;
+		margin: 4px !important; 
+	}
+	.booking_link li{
+		font-size: 14vw;
+	}
+}
+@media screen and (max-width:  637px){
+	.footer-icons a li{
+		font-size: 6vw;
+	}
+}
